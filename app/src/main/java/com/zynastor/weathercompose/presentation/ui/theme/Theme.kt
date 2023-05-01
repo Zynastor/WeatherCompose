@@ -1,4 +1,4 @@
-package com.zynastor.weathercompose.ui.theme
+package com.zynastor.weathercompose.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
