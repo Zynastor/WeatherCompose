@@ -71,27 +71,21 @@ fun WeatherCard(
                     WeatherDataDisplay(
                         value = data.pressure.roundToInt(),
                         unit = "hpa",
-                        icon = ImageVector.vectorResource(
-                            R.drawable.ic_pressure
-                        ),
+                        icon = ImageVector.vectorResource(R.drawable.ic_pressure),
                         iconTint = Color.White,
                         textStyle = TextStyle(color = Color.White)
                     )
                     WeatherDataDisplay(
                         value = data.humidity.roundToInt(),
                         unit = "%",
-                        icon = ImageVector.vectorResource(
-                            R.drawable.ic_drop
-                        ),
+                        icon = ImageVector.vectorResource(R.drawable.ic_drop),
                         iconTint = Color.White,
                         textStyle = TextStyle(color = Color.White)
                     )
                     WeatherDataDisplay(
-                        value = data.pressure.roundToInt(),
+                        value = data.windSpeed.roundToInt(),
                         unit = "km/h",
-                        icon = ImageVector.vectorResource(
-                            R.drawable.ic_wind
-                        ),
+                        icon = ImageVector.vectorResource(R.drawable.ic_wind),
                         iconTint = Color.White,
                         textStyle = TextStyle(color = Color.White)
                     )
